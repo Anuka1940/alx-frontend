@@ -1,15 +1,13 @@
 import React from 'react';
-import logo from './holbertonlogo.jpg';
 import './App.css';
+import holbertonLogo from './holbertonlogo.jpg';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} alt="holberton-logo" />
-        <h1>
-          School dashboard
-        </h1>
+        <img src={holbertonLogo} alt="Holberton logo" />
+        <h1>School dashboard</h1>
       </header>
       <body className="App-body">
         <p>Login to access the full dashboard</p>
@@ -22,3 +20,4 @@ function App() {
 }
 
 export default App;
+
